@@ -42,32 +42,44 @@ a {
     color: #777777;
 }
 
-a:visited a:hover {
+a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
     color: black;
+}
+
+a:active {
+    color: blue;
 }
 
 /*---ABOUT SECTION---*/
 .about-me-container {
-    width: 900px;
-    border: 1px solid #ffffff;
-    margin: 0 0 0 30px;
-    padding: 20px;
-    display: inline-block;
+    width: 700px;
     float: left;
+    margin-right: 50px;
 }
 
 .about-content {
     background-color: white;
-    width: 600px;
-    margin: 0 auto;
+    width: 700px;
+    border: 1px solid #dddddd;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
 }
 
 .about-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-size: 27px;
-    margin: 15px;
-    padding: 20px 0 20px 0;
+    margin: 15px`;
+    padding: 0 0 10px 0;
     border-bottom: 1px solid #777777;
 }
 
@@ -89,6 +101,33 @@ a:visited a:hover {
 /*---CONNECT SECTION---*/
 .connect {
     background-color: white;
+    width: 200px;
+    height: 150px;
     float: left;
+    margin: 20px 20px 20px 10px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+#connect-title {
+    border-bottom: 1px solid #777777;
+    margin-bottom: 10px;
+    padding: 0 0 0 0;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+/*---COPYRIGHT---*/
+.copyright {
+    clear: both;
     margin: 0 auto;
+    border: 1px solid #777777;
+    background-color: #666666;
+    width: 100%;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
 }
